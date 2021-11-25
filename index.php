@@ -1,4 +1,3 @@
 <?php
-include 'pages/Login/login.php';
+header('Location: http://localhost/dev/phpRestaurante/pages/Login/login.php');
 ?>
-

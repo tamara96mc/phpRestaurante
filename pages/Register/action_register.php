@@ -3,6 +3,6 @@
 require '../../database/dbconnect.php';
 $mysqli = conectar();
 $resultado = $mysqli->query("INSERT INTO usuarios (nombre,correo,contraseya) VALUES ('".$_POST['nombre']."', '".$_POST['correo']."', '".$_POST['contraseña']."'");
-header('Location: http://localhost/dev/pages/Home/Home.php');
+header('Location: http://localhost/dev/pages/Home/home.php');
 echo "Armando cabrón, saluda al campeón"
 ?>
