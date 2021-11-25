@@ -1,6 +1,6 @@
 <?php
 
-include '../../template/Header/Header.php';
+include '../../template/Header/header.php';
 ?>
 
     <form action="action_register.php" method="post">
@@ -11,5 +11,5 @@ include '../../template/Header/Header.php';
     </form>
 <?php
 
-include '../../template/Footer/Footer.php';
+include '../../template/Footer/footer.php';
 ?>
