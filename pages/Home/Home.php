@@ -11,7 +11,7 @@ echo '<ol>';
 while($reg=$resultado->fetch_assoc()){
  
     echo '<li>';
-    echo '<a href="http://localhost/dev/phprestaurante/pages/Detalle/detalle.php?id='.$reg['id'].'&titulo='.$reg['titulo'].'">'.$reg['titulo'].'</a>';
+    echo '<a href="http://localhost/dev/phprestaurante/pages/Plato/detalle.php?id='.$reg['id'].'&titulo='.$reg['titulo'].'">'.$reg['titulo'].'</a>';
     echo '</li>';
 }
 echo '</ol>';

@@ -1,5 +1,5 @@
 <?php
-include '../../template/Header/Header.php';
+include '../../template/Header/header.php';
 ?>
     <form action="action_plato.php" method="post">
         <div>Nombre del plato: <input type="text" name="titulo"></div>
@@ -10,5 +10,5 @@ include '../../template/Header/Header.php';
 
 <?php
 
-include '../../template/Footer/Footer.php';
+include '../../template/Footer/footer.php';
 ?>
