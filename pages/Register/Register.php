@@ -23,6 +23,7 @@ include '../../template/Header/header.php';
             </fieldset>
         </form>
     </div>
+
 <?php
 
 include '../../template/Footer/footer.php';

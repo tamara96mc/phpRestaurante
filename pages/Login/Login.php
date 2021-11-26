@@ -1,4 +1,5 @@
 <?php
+
 include '../../template/Header/header.php';
 ?>
 <div class="container">
@@ -16,9 +17,9 @@ include '../../template/Header/header.php';
             </div>
             <input type="submit" class="next btn btn-info" value="LOGIN">
 </fieldset>
-    </form>
+ </form>
 </div>
-
 <?php
 include '../../template/Footer/footer.php';
+
 ?>
