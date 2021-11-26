@@ -1,0 +1,100 @@
+.page-footer{
+    background-color: rgb(230, 222, 222);
+    height: 4em;
+    position: relative;
+    width: 100%;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+width: 2em;
+height: 2em;
+}
+
+.navbar-collapse{
+    border-color: #e7e7e7;
+    background-color: teal;
+    color: white;
+}
+ul.nav.navbar-nav.navbar-right > li > a {
+    color:white
+}
+ ul.nav.navbar-nav.navbar-right {
+    margin-top: 0.4em;
+}
+.container-max-width-400{
+    width: 340px;
+    margin: auto;
+    padding: 3em 0em;
+}
+.home-full-width-back{
+    background-image: url('./images/image.png');
+    width: 100%;
+    height: 100%;
+    background-position-y: bottom;
+}
+a.list-group-item.list-group-item-action {
+    color:white;
+    background-color: teal;
+    letter-spacing: 0.1em;
+}
+li.list-group-item {
+    border: unset;
+}
+
+h1.home-h1 {
+    text-align: center;
+    color: #009c9c;
+}
+.logo-titlelogo {
+    display: flex;
+    color: wheat;
+    align-items: center;
+    width: 11em;
+    justify-content: space-evenly;
+    align-content: center;
+    font-size: 2em;
+}
+p {
+    margin: 0;
+}
+ul.nav.navbar-nav.navbar-right {
+    margin-top: 1.2em;
+    padding-right: 3em;
+    font-size: 1.3em;
+    font-family: cursive;
+}
+
+.navbar {
+margin-bottom: 0em!important;
+}
+li.list-group-item {
+    background-color: unset;
+}
+nav.navbar.navbar-default {
+    border-color: unset;
+}
+
+footer.page-footer.font-small{
+    background-color: teal;
+    color: white;  
+}
+
+form.register-form {
+    width: 15em;
+    height: fit-content;
+    margin: auto;
+    padding: 6em 0em;
+}
+input[type="submit"] {
+    width: 12.7em;
+    margin-top: 1em;
+    background-color: teal;
+    border: unset;
+    color: white;
+    font-size: 1em;
+    padding: 1em;
+    border-radius: 5em;
+}

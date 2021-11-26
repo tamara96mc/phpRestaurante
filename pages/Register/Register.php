@@ -3,7 +3,7 @@
 include '../../template/Header/header.php';
 ?>
 
-    <form action="action_register.php" method="post">
+    <form  class="register-form" action="action_register.php" method="post">
         <div>Nombre: <input type="text" name="nombre"></div>
         <div>Correo: <input type="text" name="correo"></div>
         <div>Contraseña: <input type="text" name="contraseya"></div>

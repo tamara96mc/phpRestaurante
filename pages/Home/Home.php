@@ -1,13 +1,14 @@
-<h1>Lista de Platos</h1>
-
 <?php
-
+include '../../template/Header/header.php';
 require '../../database/dbconnect.php';
 $mysqli = conectar();
 
 $resultado= $mysqli->query("SELECT * FROM plato");
 
-echo '<div class="container">';
+echo '
+<div class="home-full-width-back">
+<div class="container-max-width-400">
+<h1 class="home-h1">Selecciona tu plato</h1>';
 echo '<ol class="list-group">';
 while($reg=$resultado->fetch_assoc()){
  
@@ -17,4 +18,6 @@ while($reg=$resultado->fetch_assoc()){
 }
 echo '</ol>';
 echo '</div>';
+echo '</div>';
+include '../../template/Footer/footer.php';
 ?>
