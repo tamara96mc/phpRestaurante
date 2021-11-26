@@ -10,7 +10,6 @@ include '../../template/Header/header.php';
 
     <form id="regiration_form" novalidate action="action_plato.php" method="post">
         <fieldset>
-            <h2>Datos</h2>
             <div class="form-group">
                 <label for="titulo">Nombre del plato:</label>
                 <input type="titulo" class="form-control" id="titulo" name="titulo" placeholder="Título">
