@@ -1,4 +1,6 @@
 <?php
+//MOSTRAMOS HEADERS
+include '../../template/Header/header.php';
 
 //CONEXION CON BBDD
 require '../../database/dbconnect.php';
@@ -7,16 +9,18 @@ $mysqli = conectar();
 $resultado = $mysqli->query("SELECT id, nombre, cantidad FROM ingrediente");
 
 //MOSTRAMOS RESULTADOS
-echo '<ol>';
+echo '<div class="container">';
+echo "<h1>Los ingredientes</h1>";
+echo "<ol class='list-group'>";
 while($reg=$resultado->fetch_assoc()){
-    echo '<li>';
-    echo '<a href="<a href="http://localhost/dev/phpRestaurante/pages/ingrediente/detalle.php?id='.$reg['id'].'&titulo='.$reg['titulo'].'">'.$reg['titulo'].'</a>';
-    echo '</li>';
+    echo "<li class='list-group-item'>";
+    echo '<a href="http://localhost/dev/phpRestaurante/pages/ingrediente/detalle.php?id='.$reg['id'].'&nombre='.$reg['nombre'].'&cantidad='.$reg['cantidad'].'">'.$reg['nombre'].'</a>';
+    echo "</li>";
 }
-echo '</ol>';
+echo "</ol>";
 
-//BOTON REDIRECCIÓN A ÍNDICE
-echo '<pre>'; print_r($_REQUEST); echo '</pre>'; //MUESTRA VARIABLES GET Y POST
-echo $_REQUEST["Volver al índice"];
+//MOSTRAMOS FOOTER
+include '../../template/Footer/footer.php';
+
 
 ?>

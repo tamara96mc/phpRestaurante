@@ -1,22 +1,24 @@
 <?php
-
+//MOSTRAMOS HEADER
+include '../../template/Header/Header.php';
 //CONEXION CON BBDD
 require '../../database/dbconnect.php';
 $mysqli = conectar();
-//CONSULTA BDD
-$resultado = $mysqli->query("INSERT id, nombre, cantidad INTO ingrediente"); //FUNCION INSERT PARA AÑADIR A LA TABLA
+// //CONSULTA BDD
+// $resultado = $mysqli->query("SELECT * FROM ingrediente"); //FUNCION PARA AÑADIR A LA TABLA
 
-//MOSTRAMOS RESULTADOS
-echo '<ol>';
-while($reg=$resultado->fetch_assoc()){
-    echo '<li>';
-    echo '<a href="<a href="http://localhost/dev/phpRestaurante/pages/ingrediente/ingrediente.php?id='.$reg['id'].'&titulo='.$reg['titulo'].'">'.$reg['titulo'].'</a>';
-    echo '</li>';
-}
-echo '</ol>';
+// //MOSTRAMOS RESULTADOS
+// echo "<ol class='list-group'>";
+// while($reg=$resultado->fetch_assoc()){
+//     echo "<li class='list-group-item'>";
+//     echo '<a class="list-group-item list-group-item-action" href="http://localhost/dev/phprestaurante/pages/Ingrediente/detalle.php?id='.$reg['id'].'&nombre='.$reg['nombre'].'&cantidad='.$reg['cantidad'].'">'.$reg['nombre'].'</a>';
+    
+//     echo "</li>";
+// }
+// echo "</ol class='list-group'>";
 
-//BOTON REDIRECCIÓN A ÍNDICE
-echo '<pre>'; print_r($_REQUEST); echo '</pre>'; //MUESTRA VARIABLES GET Y POST
-echo $_REQUEST["Volver al índice"];
+//MOSTRAMOS FOOTER
+include '../../template/Footer/Footer.php';
+
 
 ?>
