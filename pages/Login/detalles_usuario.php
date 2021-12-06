@@ -20,7 +20,7 @@ echo "<ul class='list-group'>";
 echo "<li class='list-group-item'>ID del usuario: ".$usuario[0][0]."</li>";
 echo "<li class='list-group-item'>Nombre del usuario: ".$usuario[0][1]."</li>";
 echo "<li class='list-group-item'>Correo del usuario: ".$usuario[0][2]."</li>";
-echo "<li class='list-group-item'>Rol del usuario: ".$usuario[0][3]."</li>";
+echo "<li class='list-group-item'>Rol del usuario: ".$usuario[0][4]."</li>";
 echo "</ul>";
 echo '</div>';
 ?>

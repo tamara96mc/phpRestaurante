@@ -15,9 +15,11 @@ include '../../template/Header/header.php';
                 <label for="contraseña">Contraseña de usuario:</label>
                 <input type="password" class="form-control" id="contraseña-login" name="contraseña" placeholder="Contraseña">
             </div>
+            <div><a href="../RecuperarContraseña/RecuperarContraseña.php">No recuerdo mi contraseña</a></div>
             <input type="submit" class="next btn btn-info" value="LOGIN">
-</fieldset>
- </form>
+        </fieldset>
+    </form>
+    
 </div>
 <?php
 include '../../template/Footer/footer.php';
