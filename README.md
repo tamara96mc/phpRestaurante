@@ -17,64 +17,71 @@
   <summary>Table of Contents (Click me!)</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li><a href="#getting-started">Getting Started</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contact">The Team</a></li>
   </ol>
 </details>
 
 
+<div id="about"></div>
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+### About The Project
 
-[![Product Name ScreenShot][product-screenshot]](https://example.com)
+<p align="center">TACO YEAH!</p>
 
-xxx
+We had to create a Full Stack application using PHP served with a MySQL database using also Docker and XAMPP Apache service.
+Inspired by mexican street food, we created: TACO YEAH!.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+
+<div id="built-with"></div>
+
+<!-- BUILT WITH  -->
 ### Built With
 
 * [HTML5](https://html.spec.whatwg.org/multipage/)
 * [CSS3](https://www.w3.org/Style/CSS/)
 * [PHP](https://www.php.net/)
+* [XAMPP](https://www.apachefriends.org/es/index.html)
 * [DOCKER](https://www.docker.com/)
 * [BOOTSTRAP5](https://getbootstrap.com/)
-<p align="right">(<a href="#top">back to top</a>)</p>
-<!-- GETTING STARTED -->
-## Getting Started
-
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+
+<div id="roadmap"></div>
+
 <!-- ROADMAP -->
-## Roadmap
+### Roadmap
 
-- [] README
+- [X] README
 - [X] GIT
-- [] VIEWS
-- [X] CLEAN CODING
-- [X] GOOD QUALITY CSS3
-- [X] SOLID PROJECT STRUCTURE (HTML5,CSS3,PHP)
-- [] RESPONSIVE
+- [X] SOLID PROJECT AND FOLDER STRUCTURE 
+- [X] RESPONSIVE
 - [X] BOOTSTRAP IMPLEMENTATION
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+
+<div id="contact"></div>
+
 <!-- CONTACT -->
-## TEAM
+### Team
 
-Lead/Tamara - [Github](https://github.com/tamara96mc)
+Lead, Plato Table & Home -> Tamara - [Github](https://github.com/tamara96mc)
 
-Design/Raúl - [Github](https://github.com/farraul)
+Design & Home View -> Raúl - [Github](https://github.com/farraul)
 
-Armando - [Github](https://github.com/aramossanchez)
+Login & Register Views ->Armando - [Github](https://github.com/aramossanchez)
 
-Desa - [Github](https://github.com/NeonFixr) 
+Readme & Ingrediente Table  -> Desa - [Github](https://github.com/NeonFixr) 
 
 Project Link: [Restaurant Repo](https://github.com/tamara96mc/phpRestaurante)
 

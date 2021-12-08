@@ -1,5 +1,5 @@
 <?php
-include '../../template/Header/header.php';
+include '../../template/Header/Header.php';
 
 //CONEXIÓN CON LA BASE DE DATOS
 require '../../database/dbconnect.php';
@@ -17,5 +17,5 @@ echo "<li class='list-group-item'>Comensales del plato: ".$plato["comensales"]."
 echo "<li class='list-group-item'>Tipo del plato: ".$plato["tipo"]."</li>";
 echo "</ul>";
 echo '</div>';
-include '../../template/Footer/footer.php';
+include '../../template/Footer/Footer.php';
 ?>

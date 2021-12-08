@@ -1,3 +1,3 @@
 <?php
-header('Location: http://localhost/dev/phpRestaurante/pages/Login/login.php');
+header('Location: ./pages/Login/Login.php');
 ?>

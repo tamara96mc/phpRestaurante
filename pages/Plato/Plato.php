@@ -1,5 +1,5 @@
 <?php
-include '../../template/Header/header.php';
+include '../../template/Header/Header.php';
 ?>
 
 <div class="container">
@@ -10,7 +10,6 @@ include '../../template/Header/header.php';
 
     <form id="regiration_form" novalidate action="action_plato.php" method="post">
         <fieldset>
-            <h2>Datos</h2>
             <div class="form-group">
                 <label for="titulo">Nombre del plato:</label>
                 <input type="titulo" class="form-control" id="titulo" name="titulo" placeholder="Título">
@@ -30,5 +29,5 @@ include '../../template/Header/header.php';
 
 <?php
 
-include '../../template/Footer/footer.php';
+include '../../template/Footer/Footer.php';
 ?>

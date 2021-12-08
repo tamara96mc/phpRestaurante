@@ -10,7 +10,7 @@ if(!$usuario){
     echo "<a href='./RecuperarContraseña.php'>Volver a Recuperar Contraseña</a>";
     include '../../template/Footer/footer.php';
 }else{
-    $resultado = $mysqli->query("UPDATE usuarios SET contraseña='".$_POST["contraseña"]."' WHERE (nombre ='".$_POST["nombre"]."' AND correo = '".$_POST["correo"]."')");
-    header('Location: http://localhost/dev/phpRestaurante/pages/Login/Login.php');
+    $resultado = $mysqli->query("UPDATE usuarios SET clave='".$_POST["clave"]."' WHERE (nombre ='".$_POST["nombre"]."' AND correo = '".$_POST["correo"]."')");
+    header('Location: ../Login/Login.php');
 }
 ?>
